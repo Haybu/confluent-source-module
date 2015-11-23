@@ -12,19 +12,7 @@ import org.springframework.integration.kafka.core.ZookeeperConfiguration;
  * Created by hmohamed on 11/21/15.
  */
 @Configuration
-//@EnableConfigurationProperties(ConfluentKafkaSourceModuleOptionsMetadata.class)
 @ImportResource("classpath:config/kafka-confluent.xml")
 public class ConfluentConfiguration {
-
-    /**
-    @Autowired
-    ConfluentKafkaSourceModuleOptionsMetadata props;
-
-    public ZookeeperConfiguration zookeeperConfiguration() {
-        ZookeeperConfiguration zookeeperConfiguration = new ZookeeperConfiguration("xx");
-        return null;
-
-    }
-    */
 
 }
